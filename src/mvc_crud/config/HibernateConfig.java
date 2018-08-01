@@ -1,4 +1,4 @@
-package mvc_crud;
+package mvc_crud.config;
 
 import java.util.Properties;
 
@@ -22,7 +22,7 @@ public class HibernateConfig {
     public LocalSessionFactoryBean sessionFactory(){
 	LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 	sessionFactory.setDataSource(dataSource());
-	sessionFactory.setPackagesToScan("entities");
+	sessionFactory.setPackagesToScan("mvc_crud.entities");
 	sessionFactory.setHibernateProperties(hibernateProperties());
 	return sessionFactory;
     }
