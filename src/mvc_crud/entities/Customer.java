@@ -14,13 +14,13 @@ public class Customer {
 	private int id;
 	
 	@Column(name="first_name")
-	private String FirstName;
+	private String firstName;
 	
 	@Column(name="last_name")
-	private String LastName;
+	private String lastName;
 	
 	@Column(name="email")
-	private String Email;
+	private String email;
 
 	public int getId() {
 		return id;
@@ -31,32 +31,32 @@ public class Customer {
 	}
 
 	public String getFirstName() {
-		return FirstName;
+		return firstName;
 	}
 
 	public void setFirstName(String firstName) {
-		FirstName = firstName;
+		this.firstName = firstName;
 	}
 
 	public String getLastName() {
-		return LastName;
+		return lastName;
 	}
 
 	public void setLastName(String lastName) {
-		LastName = lastName;
+		this.lastName = lastName;
 	}
 
 	public String getEmail() {
-		return Email;
+		return email;
 	}
 
 	public void setEmail(String email) {
-		Email = email;
+		this.email = email;
 	}
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", FirstName=" + FirstName + ", LastName=" + LastName + ", Email=" + Email + "]";
+		return "Customer [id=" + id + ", FirstName=" + firstName + ", LastName=" + lastName + ", Email=" + email + "]";
 	}
 	
 	

@@ -1,0 +1,11 @@
+package mvc_crud.services;
+
+import java.util.List;
+
+import mvc_crud.entities.Customer;
+
+public interface CustomerService {
+	
+	public List<Customer> getCustomers();
+
+}
