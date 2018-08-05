@@ -44,5 +44,10 @@
 
 
 </div>
+
+<div style="clear;both"></div>
+<p>
+	<a href="${pageContext.request.contextPath}/customer/list" > Back to the list</a>
+	</p>
 </body>
 </html>
