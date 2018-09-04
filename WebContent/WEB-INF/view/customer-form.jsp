@@ -19,6 +19,7 @@
 <div id = "container">
 <f:form action="saveCustomer" modelAttribute="customer" method="POST"> 
 
+<f:hidden path="id" />
 
 <table>
 <tbody>
