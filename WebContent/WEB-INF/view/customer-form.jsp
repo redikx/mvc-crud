@@ -39,10 +39,11 @@
 		<td><label></label></td>	
 		<td><input type="submit" value="Save" class="save"></td>
 	</tr>
-</f:form>
+
+
 </tbody>
 </table>
-
+</f:form>
 
 </div>
 
@@ -50,5 +51,7 @@
 <p>
 	<a href="${pageContext.request.contextPath}/customer/list" > Back to the list</a>
 	</p>
+
 </body>
 </html>
+
