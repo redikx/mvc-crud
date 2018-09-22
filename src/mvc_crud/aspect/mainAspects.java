@@ -2,8 +2,6 @@ package mvc_crud.aspect;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.Date;
-
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
